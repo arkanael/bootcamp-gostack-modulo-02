@@ -6,7 +6,7 @@ module.exports = {
   extends: [
     'airbnb-base', 'prettier'
   ],
-  plugins: ['eslint-plugin-prettier'],
+  plugins: ['prettier','eslint-plugin-prettier'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -18,7 +18,7 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
-    "no-param-reassing": "off",
+    "no-param-reassign": "off",
     "camelcase": "off",
     "no-unused-vars": ["error", {"argsIgnorePattern": "next"}],
     "eslint linebreak-style": [0, "error", "windows"]
