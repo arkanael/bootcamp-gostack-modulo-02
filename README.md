@@ -1,6 +1,3 @@
-
-
-
 nodemon
 sucrase
 docker
